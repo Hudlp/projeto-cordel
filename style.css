@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(201, 199, 199);
+}
+
+header {
+  height: 150px;
+  color: rgb(223, 223, 223);
+  background-color: rgb(39, 39, 39);
+}
+
+header h1 {
+  text-align: center;
+  font-family: "Passion One", sans-serif;
+  font-weight: 700px;
+  font-style: normal;
+  font-size: 62px;
+  padding-top: 32px;
+  text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+}
+
+header p {
+  margin-top: 6px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100px;
+  font-style: normal;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.541);
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(247, 247, 247);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header a:hover {
+  text-decoration: underline;
+  color: rgb(67, 168, 112);
+}
+
+main div {
+  margin: 0 auto;
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-size: 32px;
+  font-style: normal;
+  padding: 64px 128px;
+  color: rgb(39, 39, 39);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.432);
+}
+
+.parallax {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.parallax.bg-1 {
+  background-image: url(imagens/background001.jpg);
+}
+
+.parallax.bg-2 {
+  background-image: url(imagens/background002.jpg);
+}
+
+
+section > div {
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.233);
+}
+
+section div p {
+  padding: 12px 12px;
+  background-color: rgba(0, 0, 0, 0.342);
+  max-width: 400px;
+  border-radius: 06px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.692);
+}
+
+footer {
+  background-color: rgb(39, 39, 39);
+  text-align: center;
+  color: rgb(223, 223, 223);
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.281);
+}
